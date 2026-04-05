@@ -1,11 +1,11 @@
-import sgMail from '@sendgrid/mail';
+import { Resend } from 'resend';
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ message: 'Method not allowed' });
   }
-
-  sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
   const { name, email, message } = req.body;
 
@@ -13,22 +13,21 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'All fields are required.' });
   }
 
-  const msg = {
-    to: process.env.RECEIVER_EMAIL, // The destination email
-    from: process.env.SENDER_EMAIL, // The verified sender email
-    subject: `New Portfolio Contact Message from ${name}`,
-    text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
-    html: `
-      <h3>New Message from Portfolio</h3>
-      <p><strong>Name:</strong> ${name}</p>
-      <p><strong>Email:</strong> ${email}</p>
-      <p><strong>Message:</strong><br/>${message.replace(/\n/g, '<br/>')}</p>
-    `,
-  };
-
   try {
-    await sgMail.send(msg);
-    res.status(200).json({ success: true, message: 'Email sent successfully!' });
+    const data = await resend.emails.send({
+      from: 'Portfolio Contact <onboarding@resend.dev>', // From email verified in Resend (default for testing)
+      to: process.env.RECEIVER_EMAIL,
+      subject: `New Portfolio Contact Message from ${name}`,
+      reply_to: email, // This allows you to click "Reply" in your email client to reply to the user directly
+      html: `
+        <h3>New Message from Portfolio</h3>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Message:</strong><br/>${message.replace(/\n/g, '<br/>')}</p>
+      `,
+    });
+
+    res.status(200).json({ success: true, message: 'Email sent successfully!', data });
   } catch (error) {
     console.error('Error sending email:', error);
     res.status(500).json({ error: 'Failed to send email' });
