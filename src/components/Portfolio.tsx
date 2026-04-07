@@ -1,4 +1,4 @@
-import { ExternalLink, Github, MapPin, Cloud, Smartphone, Palette, Building2, ClipboardList, ShieldCheck, Globe, Hotel, Building, Landmark, AppWindow, Cpu, Rocket, Scale, Anchor } from 'lucide-react';
+import { ExternalLink, Github, MapPin, Cloud, Smartphone, Palette, Building2, ClipboardList, ShieldCheck, Globe, Hotel, Building, Landmark, AppWindow, Cpu, Rocket, Scale, Anchor, Recycle } from 'lucide-react';
 import { AuroraText } from '@/components/ui/aurora-text';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -25,10 +25,44 @@ import vignanPreview from '@/assets/vignan.png';
 import metablisPreview from '@/assets/metablis.png';
 import hellotaxPreview from '@/assets/hellotax.png';
 import shipivistaPreview from '@/assets/shipivista.png';
+import metalfakihsPreview from '@/assets/metalfakihs.png';
 import { motion } from 'motion/react';
 
 const Portfolio = () => {
   const projects = [
+    {
+      title: "Metal Fakihs International",
+      subtitle: "Metals a division of Fakihs - Scrap Metal Trading & Recycling UAE",
+      description: "A UAE-based scrap metal trading and recycling company specializing in the global sourcing, processing, and supply of high-grade ferrous and non-ferrous metal scrap.",
+      image: metalfakihsPreview,
+      techStack: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "Lucide React",
+        "React Router Dom",
+        "TanStack Query",
+        "Radix UI",
+        "Zod",
+        "React Hook Form"
+      ],
+      features: [
+        "Global Ferrous & Non-Ferrous Metal Scrap Trading",
+        "International Standard Quality Control & Consistency",
+        "Multinational Sourcing & Procurement Network",
+        "Direct Channel Sourcing for Competitive Pricing",
+        "Reliable Global Logistics & Supply Chain Management",
+        "Interactive Product Showcase for Scrap Materials",
+        "WhatsApp & Direct Call Integration for Quick Lead Generation",
+        "Professional Contact Forms with Zod Validation",
+        "Responsive Modern Professional Design"
+      ],
+      liveUrl: "https://metalfakihs.vercel.app/",
+      githubUrl: "https://github.com/Dastgir-27",
+      icon: Recycle
+    },
     {
       title: "Shipivishta Maritime",
       subtitle: "Marine Engineering & Maritime Services",
