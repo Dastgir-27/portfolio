@@ -64,67 +64,13 @@ const Portfolio = () => {
       icon: Recycle
     },
     {
-      title: "Shipivishta Maritime",
-      subtitle: "Marine Engineering & Maritime Services",
-      description: "A professional, high-converting WordPress platform for Shipivishta Maritime, tailored to showcase specialized marine engineering services and offshore solutions.",
-      image: shipivistaPreview,
-      techStack: ["WordPress", "Elementor", "PHP", "MySQL"],
-      features: [
-        "Maritime Service Showcase",
-        "Offshore Solution Highlights",
-        "Technical Consultation Forms",
-        "Modern Responsive Layout",
-        "SEO Optimization",
-        "Performance Tuning"
-      ],
-      liveUrl: "https://shipivishtamaritime.com/",
-      githubUrl: "https://github.com/Dastgir-27",
-      icon: Anchor
-    },
-    {
-      title: "Hellotax",
-      subtitle: "CA Service Platform & eCommerce",
-      description: "A professional, high-converting WordPress landing page for Hellotax (Chartered Accountancy), featuring comprehensive service showcases and WooCommerce integration for streamlined operations.",
-      image: hellotaxPreview,
-      techStack: ["WordPress", "Elementor", "PHP", "MySQL", "WooCommerce"],
-      features: [
-        "CA Service Showcase",
-        "WooCommerce Integration",
-        "Lead Generation Forms",
-        "Modern Responsive Design",
-        "SEO Optimization",
-        "Performance Tuning"
-      ],
-      liveUrl: "https://staging.hellotaxindia.com/",
-      githubUrl: "https://github.com/Dastgir-27",
-      icon: Scale
-    },
-    {
-      title: "Metablis",
-      subtitle: "Digital Marketing Agency Portfolio",
-      description: "A professional, high-converting WordPress landing page for Metablis, a digital marketing agency, designed to showcase services and drive lead generation.",
-      image: metablisPreview,
-      techStack: ["WordPress", "Elementor", "PHP", "MySQL"],
-      features: [
-        "Modern Responsive Design",
-        "Lead Generation Forms",
-        "Service Showcases",
-        "SEO Optimization",
-        "Performance Tuning",
-        "Custom Brand Identity"
-      ],
-      liveUrl: "https://metablis.com/",
-      githubUrl: "https://github.com/Dastgir-27",
-      icon: Rocket
-    },
-    {
       title: "Vignan Electronics",
       subtitle: "Industrial Automation & Motion Control",
       description: "A high-performance industrial platform for Vignan Electronics built with Next.js 15 and Laravel 12, featuring a dynamic product catalog, multi-source CMS, and technical support hub.",
       image: vignanPreview,
       techStack: [
         "Next.js 15",
-        "Laravel 12",
+        "Node.js 18",
         "React 19",
         "Tailwind CSS 4",
         "Framer Motion",
@@ -146,69 +92,13 @@ const Portfolio = () => {
       icon: Cpu
     },
     {
-      title: "Samvriddhi Landing Page",
-      subtitle: "Corporate CSP Operations Portal",
-      description: "A centralized Laravel 11 platform designed to streamline CSP agent onboarding, operational verification, and corporate service delivery for the Samvriddhi ecosystem.",
-      image: samvriddhiPreview,
-      techStack: [
-        "PHP 8.2",
-        "Laravel 11",
-        "Tailwind CSS",
-        "Vite",
-        "MySQL",
-        "Chart.js",
-        "Axios",
-        "Eloquent ORM"
-      ],
-      features: [
-        "Three-role authentication system (Admin, Subadmin, CSP)",
-        "Profile update approval workflow with diff view",
-        "Automated email notifications for lifecycle events",
-        "Full operational dashboard with real-time analytics",
-        "Bank master CRUD with dynamic logo management",
-        "Integrated API for district/IFSC validation",
-        "Secure document verification & lifecycle tracking"
-      ],
-      liveUrl: "https://samvriddhi.com",
-      githubUrl: "https://github.com/Dastgir-27",
-      icon: AppWindow
-    },
-    {
-      title: "Samvriddhi CSP Ledger",
-      subtitle: "Banking Operations & E-Sign Portal",
-      description: "A heavy-duty Laravel platform for CSP ecosystems featuring multi-bank ledger ingestion, Protean-powered e-sign workflows, and automated certificate generation.",
-      image: samvriddhiLedgerPreview,
-      techStack: [
-        "PHP 8.2",
-        "Laravel 11",
-        "Protean eSign API",
-        "MySQL",
-        "PhpSpreadsheet",
-        "DomPDF",
-        "Ghostscript",
-        "Chart.js"
-      ],
-      features: [
-        "Protean e-sign integration with OAuth token caching",
-        "Multi-bank Excel upload (PNB, BOB, SBI, etc.)",
-        "Profile update approval with diff view & notifications",
-        "Secure OTP login & forced password resets",
-        "Bank-branded ID card & certificate PDF rendering",
-        "Automated agreement filling with merged document bundles",
-        "MIS import with flexible column mapping"
-      ],
-      liveUrl: "https://ledger.samvriddhi.com/login",
-      githubUrl: "https://github.com/Dastgir-27",
-      icon: Landmark
-    },
-    {
       title: "OfficeNMore Admin CRM",
       subtitle: "Real Estate Operations & Billing",
       description: "A centralized Laravel 12 platform for real estate operations, managing property inventory, inquiry-to-deal workflows, and automated invoicing.",
       image: officesnmorePreview,
       techStack: [
-        "PHP 8.2",
-        "Laravel 12",
+        "Node.js 18",
+        "Express.js",
         "Tailwind CSS v4",
         "Alpine.js",
         "Eloquent ORM",
@@ -256,6 +146,74 @@ const Portfolio = () => {
       liveUrl: "https://motiparadise.vercel.app/",
       githubUrl: "https://github.com/Dastgir-27",
       icon: Hotel
+    },
+    {
+      title: 'Wonderlust',
+      subtitle: 'Airbnb-Inspired Travel Stay Platform',
+      description: 'Full-stack travel platform featuring user authentication, CRUD operations for listings, image uploads with Cloudinary, and interactive maps using Leaflet.js. Built with responsive design principles.',
+      image: wonderlustPreview,
+      techStack: ['Node.js', 'Express.js', 'MongoDB', 'EJS', 'Cloudinary', 'Leaflet.js'],
+      features: ['User Authentication', 'CRUD Listings', 'Image Upload', 'Interactive Maps', 'Responsive Design'],
+      liveUrl: 'https://wonderlust-nodejs-2pqs.onrender.com/listing',
+      githubUrl: 'https://github.com/Dastgir-27/WonderLust-Nodejs',
+      icon: MapPin,
+      hosted: 'Personal Project'
+    },
+    {
+      title: "Samvriddhi CSP Ledger",
+      subtitle: "Banking Operations & E-Sign Portal",
+      description: "A heavy-duty Laravel platform for CSP ecosystems featuring multi-bank ledger ingestion, Protean-powered e-sign workflows, and automated certificate generation.",
+      image: samvriddhiLedgerPreview,
+      techStack: [
+        "PHP 8.2",
+        "Laravel 11",
+        "Protean eSign API",
+        "MySQL",
+        "PhpSpreadsheet",
+        "DomPDF",
+        "Ghostscript",
+        "Chart.js"
+      ],
+      features: [
+        "Protean e-sign integration with OAuth token caching",
+        "Multi-bank Excel upload (PNB, BOB, SBI, etc.)",
+        "Profile update approval with diff view & notifications",
+        "Secure OTP login & forced password resets",
+        "Bank-branded ID card & certificate PDF rendering",
+        "Automated agreement filling with merged document bundles",
+        "MIS import with flexible column mapping"
+      ],
+      liveUrl: "https://ledger.samvriddhi.com/login",
+      githubUrl: "https://github.com/Dastgir-27",
+      icon: Landmark
+    },
+    {
+      title: "Samvriddhi Landing Page",
+      subtitle: "Corporate CSP Operations Portal",
+      description: "A centralized Laravel 11 platform designed to streamline CSP agent onboarding, operational verification, and corporate service delivery for the Samvriddhi ecosystem.",
+      image: samvriddhiPreview,
+      techStack: [
+        "PHP 8.2",
+        "Laravel 11",
+        "Tailwind CSS",
+        "Vite",
+        "MySQL",
+        "Chart.js",
+        "Axios",
+        "Eloquent ORM"
+      ],
+      features: [
+        "Three-role authentication system (Admin, Subadmin, CSP)",
+        "Profile update approval workflow with diff view",
+        "Automated email notifications for lifecycle events",
+        "Full operational dashboard with real-time analytics",
+        "Bank master CRUD with dynamic logo management",
+        "Integrated API for district/IFSC validation",
+        "Secure document verification & lifecycle tracking"
+      ],
+      liveUrl: "https://samvriddhi.com",
+      githubUrl: "https://github.com/Dastgir-27",
+      icon: AppWindow
     },
     {
       title: "MOS Utility (MOS World)",
@@ -377,16 +335,58 @@ const Portfolio = () => {
       icon: Building2
     },
     {
-      title: 'Wonderlust',
-      subtitle: 'Airbnb-Inspired Travel Stay Platform',
-      description: 'Full-stack travel platform featuring user authentication, CRUD operations for listings, image uploads with Cloudinary, and interactive maps using Leaflet.js. Built with responsive design principles.',
-      image: wonderlustPreview,
-      techStack: ['Node.js', 'Express.js', 'MongoDB', 'EJS', 'Cloudinary', 'Leaflet.js'],
-      features: ['User Authentication', 'CRUD Listings', 'Image Upload', 'Interactive Maps', 'Responsive Design'],
-      liveUrl: 'https://wonderlust-nodejs-2pqs.onrender.com/listing',
-      githubUrl: 'https://github.com/Dastgir-27/WonderLust-Nodejs',
-      icon: MapPin,
-      hosted: 'Render'
+      title: "Metablis",
+      subtitle: "Digital Marketing Agency Portfolio",
+      description: "A professional, high-converting WordPress landing page for Metablis, a digital marketing agency, designed to showcase services and drive lead generation.",
+      image: metablisPreview,
+      techStack: ["WordPress", "Elementor", "PHP", "MySQL"],
+      features: [
+        "Modern Responsive Design",
+        "Lead Generation Forms",
+        "Service Showcases",
+        "SEO Optimization",
+        "Performance Tuning",
+        "Custom Brand Identity"
+      ],
+      liveUrl: "https://metablis.com/",
+      githubUrl: "https://github.com/Dastgir-27",
+      icon: Rocket
+    },
+    {
+      title: "Shipivishta Maritime",
+      subtitle: "Marine Engineering & Maritime Services",
+      description: "A professional, high-converting WordPress platform for Shipivishta Maritime, tailored to showcase specialized marine engineering services and offshore solutions.",
+      image: shipivistaPreview,
+      techStack: ["WordPress", "Elementor", "PHP", "MySQL"],
+      features: [
+        "Maritime Service Showcase",
+        "Offshore Solution Highlights",
+        "Technical Consultation Forms",
+        "Modern Responsive Layout",
+        "SEO Optimization",
+        "Performance Tuning"
+      ],
+      liveUrl: "https://shipivishtamaritime.com/",
+      githubUrl: "https://github.com/Dastgir-27",
+      icon: Anchor
+    },
+    {
+      title: "Hellotax",
+      subtitle: "CA Service Platform & eCommerce",
+      description: "A professional, high-converting WordPress landing page for Hellotax (Chartered Accountancy), featuring comprehensive service showcases and WooCommerce integration for streamlined operations.",
+      image: hellotaxPreview,
+      techStack: ["WordPress", "Elementor", "PHP", "MySQL", "WooCommerce"],
+      features: [
+        "CA Service Showcase",
+        "WooCommerce Integration",
+        "Lead Generation Forms",
+        "Modern Responsive Design",
+        "SEO Optimization",
+        "Performance Tuning"
+      ],
+      liveUrl: "https://staging.hellotaxindia.com/",
+      githubUrl: "https://github.com/Dastgir-27",
+      icon: Scale
     },
     {
       title: 'Weather App',
