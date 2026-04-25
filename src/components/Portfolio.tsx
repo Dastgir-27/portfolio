@@ -59,7 +59,7 @@ const Portfolio = () => {
         "Professional Contact Forms with Zod Validation",
         "Responsive Modern Professional Design"
       ],
-      liveUrl: "https://metalfakihs.vercel.app/",
+      liveUrl: "https://metal.fakihs.com/",
       githubUrl: "https://github.com/Dastgir-27",
       icon: Recycle
     },
