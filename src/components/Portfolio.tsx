@@ -384,7 +384,7 @@ const Portfolio = () => {
         "SEO Optimization",
         "Performance Tuning"
       ],
-      liveUrl: "https://staging.hellotaxindia.com/",
+      liveUrl: "https://hellotaxindia.com/",
       githubUrl: "https://github.com/Dastgir-27",
       icon: Scale
     },
