@@ -47,8 +47,8 @@ const About = () => {
     {
       degree: 'Bachelor of Engineering, Computer Science',
       institution: 'Rizvi College of Engineering',
-      period: '2022 – 2026',
-      status: 'Pursuing'
+      period: 'Graduated 2026',
+      status: 'Completed'
     },
     {
       degree: 'Higher Secondary Education',
@@ -93,7 +93,7 @@ const About = () => {
                 React, and Node.js.
               </p>
               <p className="text-lg text-foreground/80 leading-relaxed">
-                Currently, I'm pursuing my Bachelor of Engineering (B.E), where I'm deepening my
+                I recently graduated with a Bachelor of Engineering (B.E) in Computer Science, where I deepened my
                 understanding of computer science and software development. I'm always exploring new
                 technologies and looking for opportunities to grow as a developer.
               </p>

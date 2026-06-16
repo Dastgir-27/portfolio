@@ -61,12 +61,13 @@ const Portfolio = () => {
       ],
       liveUrl: "https://metal.fakihs.com/",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: Recycle
+      icon: Recycle,
+      hosted: 'Ace360Degree'
     },
     {
       title: "Vignan Electronics",
       subtitle: "Industrial Automation & Motion Control",
-      description: "A high-performance industrial platform for Vignan Electronics built with Next.js 15 and Laravel 12, featuring a dynamic product catalog, multi-source CMS, and technical support hub.",
+      description: "A high-performance industrial platform for Vignan Electronics built with Next.js 15 and Node.js 18, featuring a dynamic product catalog, multi-source CMS, and technical support hub.",
       image: vignanPreview,
       techStack: [
         "Next.js 15",
@@ -89,22 +90,22 @@ const Portfolio = () => {
       ],
       liveUrl: "https://www.vignanelectronics.com/",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: Cpu
+      icon: Cpu,
+      hosted: 'Ace360Degree'
     },
     {
       title: "OfficeNMore Admin CRM",
       subtitle: "Real Estate Operations & Billing",
-      description: "A centralized Laravel 12 platform for real estate operations, managing property inventory, inquiry-to-deal workflows, and automated invoicing.",
+      description: "A centralized Node.js 18 platform for real estate operations, managing property inventory, inquiry-to-deal workflows, and automated invoicing.",
       image: officesnmorePreview,
       techStack: [
         "Node.js 18",
         "Express.js",
         "Tailwind CSS v4",
         "Alpine.js",
-        "Eloquent ORM",
+        "MySQL",
         "DataTables",
         "DomPDF",
-        "PHPUnit 11"
       ],
       features: [
         "Inquiry-to-deal one-click conversion",
@@ -117,7 +118,8 @@ const Portfolio = () => {
       ],
       liveUrl: "https://crm.officesnmore.in/",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: Building
+      icon: Building,
+      hosted: 'Ace360Degree'
     },
     {
       title: "Moti Paradise Villa",
@@ -145,7 +147,8 @@ const Portfolio = () => {
       ],
       liveUrl: "https://motiparadise.vercel.app/",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: Hotel
+      icon: Hotel,
+      hosted: 'Ace360Degree'
     },
     {
       title: 'Wonderlust',
@@ -162,11 +165,11 @@ const Portfolio = () => {
     {
       title: "Samvriddhi CSP Ledger",
       subtitle: "Banking Operations & E-Sign Portal",
-      description: "A heavy-duty Laravel platform for CSP ecosystems featuring multi-bank ledger ingestion, Protean-powered e-sign workflows, and automated certificate generation.",
+      description: "A heavy-duty platform for CSP ecosystems featuring multi-bank ledger ingestion, Protean-powered e-sign workflows, and automated certificate generation.",
       image: samvriddhiLedgerPreview,
       techStack: [
-        "PHP 8.2",
-        "Laravel 11",
+        "Node.js 18",
+        "Express.js",
         "Protean eSign API",
         "MySQL",
         "PhpSpreadsheet",
@@ -185,16 +188,18 @@ const Portfolio = () => {
       ],
       liveUrl: "https://ledger.samvriddhi.com/login",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: Landmark
+      icon: Landmark,
+      hosted: 'Ace360Degree'
     },
     {
       title: "Samvriddhi Landing Page",
       subtitle: "Corporate CSP Operations Portal",
-      description: "A centralized Laravel 11 platform designed to streamline CSP agent onboarding, operational verification, and corporate service delivery for the Samvriddhi ecosystem.",
+      description: "A centralized platform designed to streamline CSP agent onboarding, operational verification, and corporate service delivery for the Samvriddhi ecosystem.",
       image: samvriddhiPreview,
       techStack: [
-        "PHP 8.2",
-        "Laravel 11",
+        "Node.js 18",
+        "Express.js",
+        "EJS",
         "Tailwind CSS",
         "Vite",
         "MySQL",
@@ -213,16 +218,19 @@ const Portfolio = () => {
       ],
       liveUrl: "https://samvriddhi.com",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: AppWindow
+      icon: AppWindow,
+      hosted: 'Ace360Degree'
     },
     {
       title: "MOS Utility (MOS World)",
       subtitle: "Corporate Website & Admin Platform",
-      description: "A CodeIgniter 4 web platform for MOS Utility that combines a public-facing corporate website, lead-capture funnels, and an internal admin panel to manage services, partnerships, and investor relations.",
+      description: "A web platform for MOS Utility that combines a public-facing corporate website, lead-capture funnels, and an internal admin panel to manage services, partnerships, and investor relations.",
       image: mosPreview,
       techStack: [
-        "PHP (CodeIgniter 4)",
-        "MySQL (MySQLi)",
+        "PHP 8.3",
+        "Laravel 12",
+        "Blade Templating",
+        "MySQL",
         "Bootstrap 5",
         "jQuery",
         "DataTables",
@@ -241,17 +249,18 @@ const Portfolio = () => {
       ],
       liveUrl: "https://mos-world.com/",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: Globe
+      icon: Globe,
+      hosted: 'Ace360Degree'
     },
     {
       title: "JC Ventures",
       subtitle: "CSP Operations Platform",
-      description: "A comprehensive Laravel-based platform for JC Ventures designed to streamline CSP agent operations, administrative oversight, and corporate service delivery.",
+      description: "A comprehensive platform for JC Ventures designed to streamline CSP agent operations, administrative oversight, and corporate service delivery.",
       image: jcventuresPreview,
       techStack: [
-        "PHP 8.2",
-        "Laravel 11",
-        "Blade Templates",
+        "Node.js 18",
+        "Express.js",
+        "EJS",
         "MySQL",
         "Tailwind CSS",
         "jQuery",
@@ -269,17 +278,18 @@ const Portfolio = () => {
       ],
       liveUrl: "https://jcventures.in",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: ShieldCheck
+      icon: ShieldCheck,
+      hosted: 'Ace360Degree'
     },
     {
       title: "JC Ventures Ledger CRM",
       subtitle: "Multi-Role BC Ledger and CSP Operations Platform",
-      description: "A Laravel-based internal platform for JC Ventures to manage CSP agents, sub-admin workflows, ledger ingestion,Esign Integration, MIS data, and document/certificate generation with role-specific dashboards.",
+      description: "A internal platform for JC Ventures to manage CSP agents, sub-admin workflows, ledger ingestion,Esign Integration, MIS data, and document/certificate generation with role-specific dashboards.",
       image: jcventuresLedgerPreview,
       techStack: [
-        "PHP 8.2",
-        "Laravel 11",
-        "Blade Templates",
+        "Node.js 18",
+        "Express.js",
+        "EJS",
         "MySQL",
         "PhpSpreadsheet",
         "DomPDF",
@@ -301,24 +311,25 @@ const Portfolio = () => {
       ],
       liveUrl: "https://ledger.jcventures.in/login",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: ClipboardList
+      icon: ClipboardList,
+      hosted: 'Ace360Degree'
     },
     {
       title: "Cosmos Seals India Website",
       subtitle: "Mechanical Seals Product Catalogue and B2B Lead",
-      description: "A Laravel-based corporate website for Cosmos Seals that showcases industrial sealing products, industries, services, case studies, and news while capturing qualified leads through contact, enquiry, quote-request, and product-download workflows.",
+      description: "A corporate website for Cosmos Seals that showcases industrial sealing products, industries, services, case studies, and news while capturing qualified leads through contact, enquiry, quote-request, and product-download workflows.",
       image: cosmosPreview,
       techStack: [
-        "PHP 8.2",
+        "PHP 8.3",
         "Laravel 12",
-        "Blade templating",
+        "Blade Templating",
         "MySQL",
         "Eloquent ORM + Query Builder",
         "Vite + Tailwind CSS (configured)",
         "Bootstrap (CDN)",
         "jQuery",
         "Slick Carousel + AOS + Animate.css",
-        "PHPMailer + Laravel Mail",
+        "Node Mailer",
         "WordPress REST API"
       ],
       features: [
@@ -332,7 +343,8 @@ const Portfolio = () => {
       ],
       liveUrl: "https://cosmosseals.com/",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: Building2
+      icon: Building2,
+      hosted: 'Ace360Degree'
     },
     {
       title: "Metablis",
@@ -350,7 +362,8 @@ const Portfolio = () => {
       ],
       liveUrl: "https://metablis.com/",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: Rocket
+      icon: Rocket,
+      hosted: 'Ace360Degree'
     },
     {
       title: "Shipivishta Maritime",
@@ -368,7 +381,8 @@ const Portfolio = () => {
       ],
       liveUrl: "https://shipivishtamaritime.com/",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: Anchor
+      icon: Anchor,
+      hosted: 'Ace360Degree'
     },
     {
       title: "Hellotax",
@@ -386,7 +400,8 @@ const Portfolio = () => {
       ],
       liveUrl: "https://hellotaxindia.com/",
       githubUrl: "https://github.com/Dastgir-27",
-      icon: Scale
+      icon: Scale,
+      hosted: 'Ace360Degree'
     },
     {
       title: 'Weather App',
@@ -397,7 +412,8 @@ const Portfolio = () => {
       features: ['Live Weather Data', 'City Search', 'Error Handling', 'Responsive UI', 'API Integration'],
       liveUrl: 'https://weather-app-react-p3my.onrender.com/',
       githubUrl: 'https://github.com/Dastgir-27/Weather-App-React',
-      icon: Cloud
+      icon: Cloud,
+      hosted: 'Personal Project'
     },
     {
       title: 'Simon Game',
@@ -408,7 +424,8 @@ const Portfolio = () => {
       features: ['Memory Challenge', 'Sound Effects', 'Mobile Support', 'Real-time Feedback', 'Progressive Difficulty'],
       liveUrl: 'https://simon-game-ep0p.onrender.com/',
       githubUrl: 'https://github.com/Dastgir-27/Simon-Game',
-      icon: Smartphone
+      icon: Smartphone,
+      hosted: 'Personal Project'
     },
     {
       title: 'Spotify UI Clone',
@@ -419,7 +436,8 @@ const Portfolio = () => {
       features: ['Responsive Design', 'Dark Mode', 'Grid Layout', 'Component Architecture', 'Modern UI'],
       liveUrl: 'https://spotify-userinterface-clone.onrender.com/',
       githubUrl: 'https://github.com/Dastgir-27/Spotify-UserInterface-Clone',
-      icon: Palette
+      icon: Palette,
+      hosted: 'Personal Project'
     }
   ];
 
