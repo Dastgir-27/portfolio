@@ -31,6 +31,64 @@ import { motion } from 'motion/react';
 const Portfolio = () => {
   const projects = [
     {
+      title: "Vignan Electronics",
+      subtitle: "Industrial Automation & Motion Control",
+      description: "A high-performance industrial platform for Vignan Electronics built with Next.js 15 and Node.js 18, featuring a dynamic product catalog, multi-source CMS, and technical support hub.",
+      image: vignanPreview,
+      techStack: [
+        "Next.js 15",
+        "Node.js 18",
+        "React 19",
+        "Tailwind CSS 4",
+        "Framer Motion",
+        "Lenis",
+        "WordPress API",
+        "MySQL"
+      ],
+      features: [
+        "Full-stack industrial automation ecosystem",
+        "Dynamic product catalog with technical specs",
+        "Support hub with gated resource downloads",
+        "Keyword-searchable video tutorials module",
+        "Multi-source CMS (Laravel API + WordPress)",
+        "Advanced UX with smooth scrolling & progress loading",
+        "Automated events & careers listing modules"
+      ],
+      liveUrl: "https://www.vignanelectronics.com/",
+      githubUrl: "https://github.com/Dastgir-27",
+      icon: Cpu,
+      hosted: 'Ace360Degree'
+    },
+    {
+      title: "Samvriddhi CSP Ledger",
+      subtitle: "Banking Operations & E-Sign Portal",
+      description: "A heavy-duty platform for CSP ecosystems featuring multi-bank ledger ingestion, Protean-powered e-sign workflows, and automated certificate generation.",
+      image: samvriddhiLedgerPreview,
+      techStack: [
+        "Node.js 18",
+        "Express.js",
+        "Protean eSign API",
+        "MySQL",
+        "PhpSpreadsheet",
+        "DomPDF",
+        "Ghostscript",
+        "Chart.js"
+      ],
+      features: [
+        "Protean e-sign integration with OAuth token caching",
+        "Multi-bank Excel upload (PNB, BOB, SBI, etc.)",
+        "Profile update approval with diff view & notifications",
+        "Secure OTP login & forced password resets",
+        "Bank-branded ID card & certificate PDF rendering",
+        "Automated agreement filling with merged document bundles",
+        "MIS import with flexible column mapping"
+      ],
+      liveUrl: "https://ledger.samvriddhi.com/login",
+      githubUrl: "https://github.com/Dastgir-27",
+      icon: Landmark,
+      hosted: 'Ace360Degree'
+    },
+    {
       title: "Metal Fakihs International",
       subtitle: "Metals a division of Fakihs - Scrap Metal Trading & Recycling UAE",
       description: "A UAE-based scrap metal trading and recycling company specializing in the global sourcing, processing, and supply of high-grade ferrous and non-ferrous metal scrap.",
@@ -65,92 +123,6 @@ const Portfolio = () => {
       hosted: 'Ace360Degree'
     },
     {
-      title: "Vignan Electronics",
-      subtitle: "Industrial Automation & Motion Control",
-      description: "A high-performance industrial platform for Vignan Electronics built with Next.js 15 and Node.js 18, featuring a dynamic product catalog, multi-source CMS, and technical support hub.",
-      image: vignanPreview,
-      techStack: [
-        "Next.js 15",
-        "Node.js 18",
-        "React 19",
-        "Tailwind CSS 4",
-        "Framer Motion",
-        "Lenis",
-        "WordPress API",
-        "MySQL"
-      ],
-      features: [
-        "Full-stack industrial automation ecosystem",
-        "Dynamic product catalog with technical specs",
-        "Support hub with gated resource downloads",
-        "Keyword-searchable video tutorials module",
-        "Multi-source CMS (Laravel API + WordPress)",
-        "Advanced UX with smooth scrolling & progress loading",
-        "Automated events & careers listing modules"
-      ],
-      liveUrl: "https://www.vignanelectronics.com/",
-      githubUrl: "https://github.com/Dastgir-27",
-      icon: Cpu,
-      hosted: 'Ace360Degree'
-    },
-    {
-      title: "OfficeNMore Admin CRM",
-      subtitle: "Real Estate Operations & Billing",
-      description: "A centralized Node.js 18 platform for real estate operations, managing property inventory, inquiry-to-deal workflows, and automated invoicing.",
-      image: officesnmorePreview,
-      techStack: [
-        "Node.js 18",
-        "Express.js",
-        "Tailwind CSS v4",
-        "Alpine.js",
-        "MySQL",
-        "DataTables",
-        "DomPDF",
-      ],
-      features: [
-        "Inquiry-to-deal one-click conversion",
-        "Automated invoice & agreement generation",
-        "Advance payment tracking & balance computation",
-        "Property matching by requirement keywords",
-        "CRM with profile photo capture & KYC flags",
-        "Document center with WhatsApp share links",
-        "Dashboard KPIs for real-time task tracking"
-      ],
-      liveUrl: "https://crm.officesnmore.in/",
-      githubUrl: "https://github.com/Dastgir-27",
-      icon: Building,
-      hosted: 'Ace360Degree'
-    },
-    {
-      title: "Moti Paradise Villa",
-      subtitle: "Luxury Villa Booking & Hospitality",
-      description: "A high-performance Next.js 15 website for a luxury villa in Udaipur, featuring a headless WordPress blog, integrated booking systems, and smooth scroll-triggered animations.",
-      image: motiparadisePreview,
-      techStack: [
-        "Next.js 15",
-        "React 19",
-        "Tailwind CSS 4",
-        "WordPress API",
-        "Route Handlers",
-        "SweetAlert2",
-        "Lucide React",
-        "Google Analytics"
-      ],
-      features: [
-        "Headless CMS integration with WordPress",
-        "Animated hero & auto-sliding carousels",
-        "Complex booking form with server-side proxy",
-        "Responsive section-based active highlighting",
-        "YouTube video modal virtual tours",
-        "SEO-ready with metadata & sitemap support",
-        "Scroll-triggered gallery animations"
-      ],
-      liveUrl: "https://motiparadise.vercel.app/",
-      githubUrl: "https://github.com/Dastgir-27",
-      icon: Hotel,
-      hosted: 'Ace360Degree'
-    },
-    {
       title: 'Wonderlust',
       subtitle: 'Airbnb-Inspired Travel Stay Platform',
       description: 'Full-stack travel platform featuring user authentication, CRUD operations for listings, image uploads with Cloudinary, and interactive maps using Leaflet.js. Built with responsive design principles.',
@@ -161,35 +133,6 @@ const Portfolio = () => {
       githubUrl: 'https://github.com/Dastgir-27/WonderLust-Nodejs',
       icon: MapPin,
       hosted: 'Personal Project'
-    },
-    {
-      title: "Samvriddhi CSP Ledger",
-      subtitle: "Banking Operations & E-Sign Portal",
-      description: "A heavy-duty platform for CSP ecosystems featuring multi-bank ledger ingestion, Protean-powered e-sign workflows, and automated certificate generation.",
-      image: samvriddhiLedgerPreview,
-      techStack: [
-        "Node.js 18",
-        "Express.js",
-        "Protean eSign API",
-        "MySQL",
-        "PhpSpreadsheet",
-        "DomPDF",
-        "Ghostscript",
-        "Chart.js"
-      ],
-      features: [
-        "Protean e-sign integration with OAuth token caching",
-        "Multi-bank Excel upload (PNB, BOB, SBI, etc.)",
-        "Profile update approval with diff view & notifications",
-        "Secure OTP login & forced password resets",
-        "Bank-branded ID card & certificate PDF rendering",
-        "Automated agreement filling with merged document bundles",
-        "MIS import with flexible column mapping"
-      ],
-      liveUrl: "https://ledger.samvriddhi.com/login",
-      githubUrl: "https://github.com/Dastgir-27",
-      icon: Landmark,
-      hosted: 'Ace360Degree'
     },
     {
       title: "Samvriddhi Landing Page",
@@ -344,6 +287,63 @@ const Portfolio = () => {
       liveUrl: "https://cosmosseals.com/",
       githubUrl: "https://github.com/Dastgir-27",
       icon: Building2,
+      hosted: 'Ace360Degree'
+    },
+    {
+      title: "OfficeNMore Admin CRM",
+      subtitle: "Real Estate Operations & Billing",
+      description: "A centralized Node.js 18 platform for real estate operations, managing property inventory, inquiry-to-deal workflows, and automated invoicing.",
+      image: officesnmorePreview,
+      techStack: [
+        "Node.js 18",
+        "Express.js",
+        "Tailwind CSS v4",
+        "Alpine.js",
+        "MySQL",
+        "DataTables",
+        "DomPDF",
+      ],
+      features: [
+        "Inquiry-to-deal one-click conversion",
+        "Automated invoice & agreement generation",
+        "Advance payment tracking & balance computation",
+        "Property matching by requirement keywords",
+        "CRM with profile photo capture & KYC flags",
+        "Document center with WhatsApp share links",
+        "Dashboard KPIs for real-time task tracking"
+      ],
+      liveUrl: "https://crm.officesnmore.in/",
+      githubUrl: "https://github.com/Dastgir-27",
+      icon: Building,
+      hosted: 'Ace360Degree'
+    },
+    {
+      title: "Moti Paradise Villa",
+      subtitle: "Luxury Villa Booking & Hospitality",
+      description: "A high-performance Next.js 15 website for a luxury villa in Udaipur, featuring a headless WordPress blog, integrated booking systems, and smooth scroll-triggered animations.",
+      image: motiparadisePreview,
+      techStack: [
+        "Next.js 15",
+        "React 19",
+        "Tailwind CSS 4",
+        "WordPress API",
+        "Route Handlers",
+        "SweetAlert2",
+        "Lucide React",
+        "Google Analytics"
+      ],
+      features: [
+        "Headless CMS integration with WordPress",
+        "Animated hero & auto-sliding carousels",
+        "Complex booking form with server-side proxy",
+        "Responsive section-based active highlighting",
+        "YouTube video modal virtual tours",
+        "SEO-ready with metadata & sitemap support",
+        "Scroll-triggered gallery animations"
+      ],
+      liveUrl: "https://motiparadise.vercel.app/",
+      githubUrl: "https://github.com/Dastgir-27",
+      icon: Hotel,
       hosted: 'Ace360Degree'
     },
     {
